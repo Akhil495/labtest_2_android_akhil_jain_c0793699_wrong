@@ -1,0 +1,46 @@
+package com.example.contacts_akhil_jain_c0793699_android.data;
+
+import androidx.lifecycle.LiveData;
+import androidx.room.Dao;
+import androidx.room.Delete;
+import androidx.room.Insert;
+import androidx.room.OnConflictStrategy;
+import androidx.room.Query;
+import androidx.room.Update;
+
+import com.example.contacts_akhil_jain_c0793699_android.model.Contact;
+
+import java.util.List;
+
+@Dao
+public interface ContactDao {
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    void insert(Contact contact);
+
+    @Query("DELETE FROM contact")
+    void deleteAll();
+
+    @Query("SELECT * FROM contact ORDER BY first_name ASC")
+    LiveData<List<Contact>> getAllContacts();
+
+
+    @Query("SELECT * FROM contact WHERE id == :id")
+    LiveData<Contact> getContact(int id);
+
+    @Query("SELECT * FROM contact WHERE first_name == :queryData")
+    LiveData<List<Contact>> getSearchContact(String queryData);
+
+    @Query("SELECT * FROM contact WHERE first_name LIKE :queryData")
+    LiveData<List<Contact>> getSearchData(String queryData);
+
+
+    @Query("Select * from contact")
+    List<Contact> getContact();
+
+    @Update
+    void update(Contact contact);
+
+    @Delete
+    void delete(Contact contact);
+}
