@@ -1,0 +1,26 @@
+com/example/contacts_akhil_jain_c0793699_android/data/ContactDao.java
+ com.example.contacts_akhil_jain_c0793699_android.data.ContactDao
+com/example/contacts_akhil_jain_c0793699_android/model/Contact.java
+ com.example.contacts_akhil_jain_c0793699_android.model.Contact
+com/example/contacts_akhil_jain_c0793699_android/ui/main/MainActivity.java
+ com.example.contacts_akhil_jain_c0793699_android.ui.main.MainActivity
+ com.example.contacts_akhil_jain_c0793699_android.ui.main.MainActivity$1
+ com.example.contacts_akhil_jain_c0793699_android.ui.main.MainActivity$2
+ com.example.contacts_akhil_jain_c0793699_android.ui.main.MainActivity$3
+com/example/contacts_akhil_jain_c0793699_android/model/ContactViewModel.java
+ com.example.contacts_akhil_jain_c0793699_android.model.ContactViewModel
+com/example/contacts_akhil_jain_c0793699_android/util/ContactRoomDatabase.java
+ com.example.contacts_akhil_jain_c0793699_android.util.ContactRoomDatabase
+ com.example.contacts_akhil_jain_c0793699_android.util.ContactRoomDatabase$1
+com/example/contacts_akhil_jain_c0793699_android/data/ContactRepository.java
+ com.example.contacts_akhil_jain_c0793699_android.data.ContactRepository
+com/example/contacts_akhil_jain_c0793699_android/BuildConfig.java
+ com.example.contacts_akhil_jain_c0793699_android.BuildConfig
+com/example/contacts_akhil_jain_c0793699_android/ui/add/AddContactActivity.java
+ com.example.contacts_akhil_jain_c0793699_android.ui.add.AddContactActivity
+ com.example.contacts_akhil_jain_c0793699_android.ui.add.AddContactActivity$1
+com/example/contacts_akhil_jain_c0793699_android/ui/main/adapter/RecyclerViewAdapter.java
+ com.example.contacts_akhil_jain_c0793699_android.ui.main.adapter.RecyclerViewAdapter
+ com.example.contacts_akhil_jain_c0793699_android.ui.main.adapter.RecyclerViewAdapter$1
+ com.example.contacts_akhil_jain_c0793699_android.ui.main.adapter.RecyclerViewAdapter$OnContactClickListener
+ com.example.contacts_akhil_jain_c0793699_android.ui.main.adapter.RecyclerViewAdapter$ViewHolder
